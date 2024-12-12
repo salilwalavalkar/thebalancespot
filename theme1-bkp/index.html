@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="The Balance Spot" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>The Balance Spot</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="#" class="link"
+          >TBL</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Services</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1><span class="about__name">The Balance Spot</span></h1>
+        <h2 class="about__role">A creative agency
+          specializing in event, video and website production.</h2>
+        <p class="about__desc">
+        We understand first-hand the challenges you face. Getting your message out there—and to the right audience—is difficult, especially if you’re strapped for resources. Every media spend has to count. It has to drive action, align with your goals, and move your audience to act. That’s where we come in.
+        </p>
+      </div>
+
+      <!-- Services -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Services</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Video Strategy</h3>
+            <p class="project__description">
+              The first step always begins with defining the goals, audience, call-to-action and distribution strategies, before we even begin to think about the video content.
+            </p>
+          </div>
+
+          <div class="project">
+            <h3>Scripted Video</h3>
+            <p class="project__description">
+              Our team has years of experience writing and editing scripts for documentaries, identity videos, PSAs, web series, explainers, and more.
+            </p>
+          </div>
+
+          <div class="project">
+            <h3>Websites</h3>
+            <p class="project__description">
+              Design a fully custom website tailored to your brand
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:thebalancespot@gmail.com">
+          <span class="btn btn--outline">Email Us!</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+        Made with ❤️ in 
+        <a
+        href="https://en.wikipedia.org/wiki/Greystones"
+        class="link footer__link"
+      >
+        Greystones, Wicklow
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
